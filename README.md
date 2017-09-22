@@ -1,2 +1,15 @@
 # RESTful Web Services with Node.js and Express
-Node.js is a simple and powerful tool for backend development. When combined with express, you can create lightweight, fast, scalable APIs quickly and simply. In this course, we will walk through how to stand up a lightweight Express server serving truly RESTful services using Node.js, Mongoose, and MongoDB. We will implement all of the RESTful verbs to get, add, and update data from our service. We will also spend some time working through unit and end to end integration tests for our services.
+
+
+
+#To Run tests
+-npm test
+
+#Setting up database
+
+-Install MongoDB from here
+-Create a C:/data/db folder
+-Add Mongo folder to PATH
+-Run mongod
+-Run mongo
+-Execute content from booksData.js inside mongo shell
