@@ -2,14 +2,14 @@
 
 
 
-#To Run tests
--npm test
+# To Run tests
+* npm test
 
-#Setting up database
+# Setting up database
 
--Install MongoDB from here
--Create a C:/data/db folder
--Add Mongo folder to PATH
--Run mongod
--Run mongo
--Execute content from booksData.js inside mongo shell
+* Install MongoDB from here
+* Create a C:/data/db folder
+* Add Mongo folder to PATH
+* Run mongod
+* Run mongo
+* Execute content from booksData.js inside mongo shell
