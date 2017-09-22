@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d18aee0-8279-449d-a245-42e4c8e0b298" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/bookIntegrationTests.js" />
+    <list default="true" id="9d18aee0-8279-449d-a245-42e4c8e0b298" name="Default" comment="Added Self links using hateos">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Routes/bookRoutes.js" afterPath="$PROJECT_DIR$/Routes/bookRoutes.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bookIntegrationTests.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bookIntegrationTests.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/bookIntegrationTests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -73,8 +70,8 @@
       <file leaf-file-name="bookController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/bookController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+            <state relative-caret-position="497">
+              <caret line="32" column="96" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -90,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bookRoutes.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bookRoutes.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Routes/bookRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="54" />
+            <state relative-caret-position="153">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -123,7 +120,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="UpdatingDatae" />
+        <entry key="$PROJECT_DIR$" value="TestingBranch" />
       </map>
     </option>
   </component>
@@ -134,12 +131,12 @@
         <option value="$PROJECT_DIR$/models/bookModel.js" />
         <option value="$PROJECT_DIR$/booksjson.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/Routes/bookRoutes.js" />
         <option value="$PROJECT_DIR$/Tests/bookControllerTests.js" />
-        <option value="$PROJECT_DIR$/controller/bookController.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/Tests/bookIntegrationTests.js" />
+        <option value="$PROJECT_DIR$/controller/bookController.js" />
+        <option value="$PROJECT_DIR$/Routes/bookRoutes.js" />
       </list>
     </option>
   </component>
@@ -153,9 +150,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2221" />
-    <option name="y" value="117" />
-    <option name="width" value="1147" />
+    <option name="x" value="2341" />
+    <option name="y" value="126" />
+    <option name="width" value="1489" />
     <option name="height" value="1014" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -242,7 +239,7 @@
       <option name="presentableId" value="Default" />
       <updated>1505870327623</updated>
       <workItem from="1505870331303" duration="9787000" />
-      <workItem from="1505955963934" duration="13964000" />
+      <workItem from="1505955963934" duration="15510000" />
     </task>
     <task id="LOCAL-00001" summary="updated the api using put method">
       <created>1505961233947</created>
@@ -286,11 +283,25 @@
       <option name="project" value="LOCAL" />
       <updated>1506045007552</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implemented integration test via supertest and made necessary changes">
+      <created>1506047566880</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1506047566880</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added Self links using hateos">
+      <created>1506048674029</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1506048674029</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23751000" />
+    <option name="totallyTimeSpent" value="25297000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -302,10 +313,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2221" y="117" width="1147" height="1014" extended-state="0" />
+    <frame x="2341" y="126" width="1489" height="1014" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26961225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20606478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -363,7 +374,9 @@
     <MESSAGE value="Added controller and updated routes" />
     <MESSAGE value="Added Mocha test and tested for empty Title" />
     <MESSAGE value="Done with Unit Tests with Mocha, ready for Integration Tests with Supertest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with Unit Tests with Mocha, ready for Integration Tests with Supertest" />
+    <MESSAGE value="Implemented integration test via supertest and made necessary changes" />
+    <MESSAGE value="Added Self links using hateos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Self links using hateos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -404,26 +417,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/gulpfile.js" />
     <entry file="file://$PROJECT_DIR$/booksjson.js" />
-    <entry file="file://$PROJECT_DIR$/controller/bookController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/bookControllerTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="3" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -452,18 +449,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Routes/bookRoutes.js">
+    <entry file="file://$PROJECT_DIR$/Tests/bookIntegrationTests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="54" />
+        <state relative-caret-position="272">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/bookIntegrationTests.js">
+    <entry file="file://$PROJECT_DIR$/Tests/bookControllerTests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="26" column="3" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/bookController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="32" column="96" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Routes/bookRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
