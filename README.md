@@ -14,6 +14,9 @@ localhost:8000
 * node.js
 * express
 * mongoDB
+* gulp
+* mocha -sinon
+* supertest
 
 # To Run tests
 * npm test
